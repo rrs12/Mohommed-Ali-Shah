@@ -104,7 +104,7 @@ body {
         margin-left: 15px;
     }
     .nav div.main_list {
-        width: 100%;
+        width: 100% !important;
         height: 0;
         overflow: hidden;
         justify-content: center;
@@ -112,6 +112,7 @@ body {
     }
 
     .nav div.show_list {
+        width: 100% !important;
         height: auto;
         display: none;
     }
@@ -122,7 +123,7 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #FF1B1C;
+        background-color: #fc9416;
         /*same background color of navbar*/
         background-position: center top;
     }
