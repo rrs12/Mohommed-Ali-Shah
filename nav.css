@@ -110,6 +110,7 @@ body {
         justify-content: center;
 
     }
+
     .nav div.show_list {
         height: auto;
         display: none;
@@ -121,7 +122,7 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #FFF;
+        background-color: #FF1B1C;
         /*same background color of navbar*/
         background-position: center top;
     }
@@ -134,6 +135,10 @@ body {
         width: 100%;
         font-size: 3rem;
         padding: 20px;
+        color: white;
+    }
+    .nav div.main_list ul li a:hover {
+        color: #084887;
     }
     .nav div.media_button {
         display: block;
