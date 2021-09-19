@@ -34,6 +34,14 @@ span#banner--text::before {
 
 #social-media a img{
     margin-left: 10px;
+    transition: filter .5s ease-in-out;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+#social-media a img:hover{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%)
 }
 
 
