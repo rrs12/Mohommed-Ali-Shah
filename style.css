@@ -34,7 +34,7 @@ span#banner--text::before {
 
 #social-media a img{
     margin-left: 10px;
-    transition: filter .5s ease-in-out;
+    transition: filter .2s ease-in-out;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
