@@ -2,7 +2,7 @@
 #banner {
     margin-top: -100px;
     padding: 350px 0px;
-    background-position: top left;
+    background-position:left top;
     background-image: url("Banner.jpg");
     width: 100%;
     position: relative;
@@ -19,7 +19,7 @@
     word-wrap: break-word !important;
     position: absolute;
     right: 5px; 
-    left: 5;
+    bottom:5px;
     margin:0px 10px;
     color: white;
 }
@@ -44,6 +44,39 @@ filter: grayscale(100%);
 -webkit-filter: grayscale(100%)
 }
 
+div#about{
+background-color: #FF7411;
+text-align: center;
+color: white;
+}
+
+#about img{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    margin: 20px 0px;
+}
+#about--text--home{
+    justify-content: center !important;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: center;
+    height: 100%;
+}
+#about a{
+    margin-top: 20px !important;
+    font-size: 3em;
+    color: #FF7411;
+    background-color: white;
+    padding: 10px 15px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: all!important;
+    transition-property: all !important;
+}
+
+#about a:hover{
+    font-size: 32px;
+}
 
 @keyframes animate {
 
