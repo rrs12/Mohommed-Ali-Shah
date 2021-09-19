@@ -1,10 +1,7 @@
-body {
-
-    color: white;
-}
 
 #banner {
-    padding: 250px 0px;
+    margin-top: -100px;
+    padding: 350px 0px;
     background-position: top left;
     background-image: url("Banner.jpg");
     width: 100%;
@@ -24,6 +21,7 @@ body {
     right: 5px; 
     left: 5;
     margin:0px 10px;
+    color: white;
 }
 
 span#banner--text::before {
@@ -32,6 +30,12 @@ span#banner--text::before {
     animation: animate infinite 7s;
     word-wrap: break-word !important;
 }
+
+
+#social-media a img{
+    margin-left: 10px;
+}
+
 
 @keyframes animate {
 
@@ -66,5 +70,8 @@ span#banner--text::before {
     bottom: 10px;
     margin: 0px 10px !important;
     right: 0px;
+}
+#banner{
+    padding: 250px 0;
 }
 }

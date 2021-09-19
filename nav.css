@@ -28,12 +28,13 @@ body {
     height: auto;
     padding-left: 2rem;
     font-family: Amsterdam;
+    color: white !important;
 
 }
 
 .nav div.logo a {
     text-decoration: none;
-    color:  #000;
+    color:  #FFF;
     letter-spacing: 2px;
     font-size: 1.75rem !important;
 }
@@ -65,7 +66,7 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color:  #000;
+    color:  #FFF;
     line-height: 65px;
     font-size: 2.4rem;
 }
@@ -145,6 +146,11 @@ body {
         display: block;
     }
 }
+@media screen and (max-width:320px) {
+    .nav div.logo a {
+font-size: 1.25em !important;
+    }
+    }
 
 
 .navTrigger {
@@ -160,7 +166,7 @@ body {
 }
 
 .navTrigger i {
-    background-color:  #000;
+    background-color:  #FFF;
     border-radius: 2px;
     content: '';
     display: block;
@@ -335,4 +341,8 @@ body {
     100% {
         transform: translateY(-9px) rotate(135deg);
     }
+}
+.affix {
+    padding: 0;
+    background-color: #000;
 }
