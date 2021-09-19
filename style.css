@@ -28,7 +28,7 @@ body {
 
 span#banner--text::before {
     transition: ease-in;
-    content: "Award winning Actor";
+    content: "an Award winning Actor";
     animation: animate infinite 7s;
     word-wrap: break-word !important;
 }
@@ -36,27 +36,27 @@ span#banner--text::before {
 @keyframes animate {
 
     16% {
-        content: "IIM graduate";
+        content: "an IIM graduate";
     }
 
     36% {
-        content: "International TEDx speaker";
+        content: "an International TEDx speaker";
     }
 
     52% {
-        content: "TV Panellist";
+        content: "a TV Panellist";
     }
 
     66% {
-        content: "Defence Expert";
+        content: "a Defence Expert";
     }
 
     82% {
-        content: "Strategic Affairs Expert";
+        content: "a Strategic Affairs Expert";
     }
 
     96% {
-        content: "Award winning Actor";
+        content: "an Award winning Actor";
     }
 }
 
