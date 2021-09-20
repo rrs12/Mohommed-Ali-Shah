@@ -9,7 +9,7 @@
     pointer-events: none;
     position: absolute;
     width: 100%;
-    padding: 50px 20px 20px;
+    padding: 50px 20px 40px 20px ;
     margin-bottom: 10px;
 }
 
@@ -176,9 +176,10 @@ span {
 }
 
 .rights {
+    margin-left: 17px;
     font-size: 100em;
     display: block;
-    margin-top: 30px !important;
+    margin-top: 80px !important;
     color: #ffffff;
     bottom: 0px;
     z-index: 100;
