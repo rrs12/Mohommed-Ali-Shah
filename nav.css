@@ -373,6 +373,7 @@ body {
 }
 
 .affix {
+    transition: ease 1s;
     padding: 0;
     background-color: #000;
 }
