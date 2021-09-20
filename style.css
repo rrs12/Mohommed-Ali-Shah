@@ -10,6 +10,19 @@
     background-repeat: no-repeat;
 }
 
+
+#banner-about {
+    margin-top: -55px;
+    padding: 330px 0px;
+    background-position:left top;
+    background-image: url("Banner.jpg");
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 #banner h1 {
     font-size: 3em;
     font-weight: 500;
@@ -22,6 +35,20 @@
     bottom:5px;
     margin:0px 10px;
     color: white;
+}
+
+#banner-about h1{
+    font-size: 3em;
+    font-weight: 500;
+    background-color: #111;
+    padding: 5px;
+    width: fit-content;
+    word-wrap: break-word !important;
+    position: absolute;
+    right: 5px; 
+    bottom:5px;
+    margin:0px 10px;
+    color: white;  
 }
 
 span#banner--text::before {
@@ -116,4 +143,8 @@ padding-bottom: 20px;
 #banner{
     padding: 250px 0;
 }
+}
+
+#about-main{
+    padding: 25px 50px;
 }

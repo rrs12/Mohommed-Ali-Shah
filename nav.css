@@ -44,6 +44,7 @@ body {
 
 .nav div.logo a:hover {
     color: #FF7F11;
+    transition: ease 0.5s;
 }
 
 .nav div.main_list {
@@ -76,6 +77,7 @@ body {
 
 .nav div.main_list ul li a:hover {
     color: #FF7F11;
+    transition: ease 0.5s;
 }
 
 
@@ -148,6 +150,7 @@ body {
 
     .nav div.main_list ul li a:hover {
         color: #084887;
+        transition: ease 0.5s;
     }
 
     .nav div.media_button {
