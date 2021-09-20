@@ -148,3 +148,6 @@ padding-bottom: 20px;
 #about-main{
     padding: 25px 50px;
 }
+#about-main{
+    word-wrap: break-word;
+}
