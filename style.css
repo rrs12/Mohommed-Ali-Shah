@@ -105,6 +105,13 @@ padding-bottom: 20px;
 #about a:hover{
     font-size: 32px;
 }
+.poster{
+    transition: transform 1s;
+}
+
+.poster:hover{
+    transform: scale(1.02);
+}
 
 @keyframes animate {
 
@@ -143,6 +150,17 @@ padding-bottom: 20px;
 #banner{
     padding: 250px 0;
 }
+#courses{
+    display: block !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.poster{
+    width: 80%;
+    margin:25px 10% !important;
+}
+
 }
 
 #about-main{

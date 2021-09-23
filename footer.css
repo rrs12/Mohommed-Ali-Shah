@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+
 .menu {
     background-color: black;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.8);
     display: inline-block;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     width: 100%;
     padding: 50px 20px 40px 20px ;
     margin-bottom: 10px;
     word-wrap: break-word;
+    bottom: 0;
 }
 
 .label {
