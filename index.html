@@ -135,6 +135,24 @@
         </div>
 
     </footer>
+ <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+  apiKey: "AIzaSyC8SVzMtjk6KcvI_znvJh4_QQdG7WnvsvY",
+  authDomain: "alishah-54cee.firebaseapp.com",
+  databaseURL: "https://alishah-54cee-default-rtdb.firebaseio.com",
+  projectId: "alishah-54cee",
+  storageBucket: "alishah-54cee.appspot.com",
+  messagingSenderId: "910950780360",
+  appId: "1:910950780360:web:24ccb976d094a6237d84fd"
+};
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        db.settings({
+          timestampsInSnapshots: true
+        });
+      </script>
     <script src="nav.js"></script>
     <script src="main.js"></script>
 </body>
