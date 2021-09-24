@@ -1,8 +1,15 @@
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
 
 #banner {
     margin-top: -55px;
     padding: 330px 0px;
-    background-position:left top;
+    background-position: left top;
     background-image: url("Banner.jpg");
     width: 100%;
     position: relative;
@@ -14,7 +21,7 @@
 #banner-about {
     margin-top: -55px;
     padding: 330px 0px;
-    background-position:left top;
+    background-position: left top;
     background-image: url("Banner.jpg");
     width: 100%;
     position: relative;
@@ -31,13 +38,13 @@
     width: fit-content;
     word-wrap: break-word !important;
     position: absolute;
-    right: 5px; 
-    bottom:5px;
-    margin:0px 10px;
+    right: 5px;
+    bottom: 5px;
+    margin: 0px 10px;
     color: white;
 }
 
-#banner-about h1{
+#banner-about h1 {
     font-size: 3em;
     font-weight: 500;
     background-color: #111;
@@ -45,10 +52,10 @@
     width: fit-content;
     word-wrap: break-word !important;
     position: absolute;
-    right: 5px; 
-    bottom:5px;
-    margin:0px 10px;
-    color: white;  
+    right: 5px;
+    bottom: 5px;
+    margin: 0px 10px;
+    color: white;
 }
 
 span#banner--text::before {
@@ -59,38 +66,40 @@ span#banner--text::before {
 }
 
 
-#social-media a img{
+#social-media a img {
     margin-left: 10px;
     transition: filter .2s ease-in-out;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
 }
 
-#social-media a img:hover{
-filter: grayscale(100%);
--webkit-filter: grayscale(100%)
+#social-media a img:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%)
 }
 
-div#about{
-background-color: #FF7411;
-text-align: center;
-color: white;
-padding-bottom: 20px;
+div#about {
+    background-color: #FF7411;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
 }
 
-#about img{
+#about img {
     padding-left: 0px !important;
     margin-left: 0px !important;
     margin: 20px 0px;
 }
-#about--text--home{
+
+#about--text--home {
     justify-content: center !important;
     margin-top: 30px;
     text-align: center;
     vertical-align: center;
     height: 100%;
 }
-#about a{
+
+#about a {
     margin-top: 20px !important;
     font-size: 3em;
     color: #FF7411;
@@ -98,19 +107,60 @@ padding-bottom: 20px;
     padding: 10px 15px;
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
-    -webkit-transition-property: all!important;
+    -webkit-transition-property: all !important;
     transition-property: all !important;
 }
 
-#about a:hover{
+#about a:hover {
     font-size: 32px;
 }
-.poster{
+
+.poster {
     transition: transform 1s;
 }
 
-.poster:hover{
+.poster:hover {
     transform: scale(1.02);
+}
+
+.btn {
+    margin-top: 20px !important;
+    font-size: 3em;
+    color: #FF7411;
+    background-color: white;
+    padding: 10px 15px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: all !important;
+    transition-property: all !important;
+    border: none;
+}
+
+.btn:hover {
+    font-size: 32px;
+}
+
+.sell_input {
+    width: 70%;
+    border-radius: 0px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 22px;
+    margin: 10px;
+    outline: none !important;
+}
+
+.ma_box-main {
+    margin-top: 50px;
+    background-color: #f56c0a;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 250px;
 }
 
 @keyframes animate {
@@ -141,31 +191,35 @@ padding-bottom: 20px;
 }
 
 @media screen and (max-width: 768px) {
-#banner h1{
-    font-size: 2.5em;
-    bottom: 10px;
-    margin: 0px 10px !important;
-    right: 0px;
-}
-#banner{
-    padding: 250px 0;
-}
-#courses{
-    display: block !important;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-.poster{
-    width: 80%;
-    margin:25px 10% !important;
-}
+    #banner h1 {
+        font-size: 2.5em;
+        bottom: 10px;
+        margin: 0px 10px !important;
+        right: 0px;
+    }
+
+    #banner {
+        padding: 250px 0;
+    }
+
+    #courses {
+        display: block !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .poster {
+        width: 80%;
+        margin: 25px 10% !important;
+    }
 
 }
 
-#about-main{
+#about-main {
     padding: 25px 50px;
 }
-#about-main{
+
+#about-main {
     word-wrap: break-word;
 }
