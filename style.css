@@ -163,6 +163,28 @@ textarea{
     max-height: 250px;
 }
 
+.article{
+    padding: 25px;
+    border: 1px solid white;
+    font-size: 2em;
+    height: 270px;
+}
+.article a{
+    font-size: 1em !important;
+    color: #FF7411;
+    background-color: white;
+    padding: 10px 15px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: all !important;
+    transition-property: all !important;
+    border: none; 
+    text-decoration: none;
+}
+.article a:hover{
+    font-size: 2.2em;
+    text-decoration: underline;
+}
 @keyframes animate {
 
     16% {

@@ -1,5 +1,5 @@
 
- const form = document.querySelector('#sell-art');
+ const form = document.querySelector('#contact');
  user_name = document.getElementById("name").value
  user_email = document.getElementById("email").value
  user_no = document.getElementById("message").value
