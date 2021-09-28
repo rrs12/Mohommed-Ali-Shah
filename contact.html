@@ -47,46 +47,22 @@
         </div>
     </nav>
 
+    <div class="ma_box-main" id="sell">
+        <h1 style="color: white;">Contact</h1>
+        <hr style="height: 2px; width: 50px; background-color: white; margin-top: -5px;">
+        <br>
+        <form id="contact">
+          <input type="text" placeholder="  Name" class="sell_input" id="name" name="name" required>
+          <br>
+          <input type="email" placeholder="  Email Address" class="sell_input" id="email" name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+          <br>
+          <textarea type="tel" placeholder="  Messages if any" class="sell_input" id="message" name="no"></textarea>
+          <br>
+          <button class="btn" id="submit">Submit</button>
+        </form>
+      </div>
 
-    <div class="container-fluid overflow-hidden"
-        style="background-color: #FF7411; padding-left:25px ; padding-right: 25px; padding-top: 100px; padding-bottom: 100px; text-align: center; ">
-        <center>
-            <h1 style="font-size: 4em; color: white;">Blogs</h1>
-            <hr style="height: 2px; width: 60px; background-color: white; margin-top: -5px;">
-            <br><br>
-        </center>
-        <div class="row" style="align-content: center; justify-content: center;">
-            <article class="col-lg-4 col-md-6 col-sm-12 article">"On Kashmir, Army veteran's plea to not see Art 370
-                repeal as cricket match"
-                <br>
-                <br>
-                <a
-                    href="https://theprint.in/opinion/on-kashmir-an-army-veteran-pleads-india-to-not-see-article-370-repeal-as-a-cricket-match/274723/">Read
-                    Blog</a>
-            </article>
-            <article class="col-lg-4 col-md-6 col-sm-12 article">"An Indian soldier challenges Jaish"
-                <br><br>
-                <a href="https://m.rediff.com/amp/news/column/an-indian-soldier-challenges-jaish/20190218.htm">Read Blog</a>
-            </article>
-            <article class="col-lg-4 col-md-6 col-sm-12 article">"Coronavirus teaches us to work online"
-                <br><br>
-                <a href="https://m.rediff.com/amp/getahead/column/coronavirus-in-india-how-coronavirus-teaches-us-to-work-online/20200425.htm">Read Blog</a>
-            </article>
-            <article class="col-lg-4 col-md-6 col-sm-12 article">"Pulwama attack: Indian Army ex-major to militants, ‘You have spoilt name of a beautiful religion’"
-                <br><br>
-                <a href="https://amp.scroll.in/article/913940/you-are-truly-the-enemies-of-islam-indian-army-ex-officers-open-letter-to-jaish-e-mohammad">Read Blog</a>
-            </article>
-            <article class="col-lg-4 col-md-6 col-sm-12 article">"Open letter: Actor Shah’s nephew and Army vet hits out at Jaish"
-                <br><br>
-                <a href="https://www.deccanchronicle.com/amp/nation/current-affairs/080319/open-letter-actor-shahs-nephew-and-army-vet-hits-out-at-jaish.html">Read Blog</a>
-            </article>
-            <article class="col-lg-4 col-md-6 col-sm-12 article">"I am a Muslim and an Indian Army ex officer. Here’s what I want to tell the men joining terrorism"
-                <br><br>
-                <a href="https://www.thenorthlines.com/i-am-a-muslim-and-an-indian-army-ex-officer-heres-what-i-want-to-tell-the-men-joining-terrorism/amp/">Read Blog</a>
-            </article>
-
-        </div>
-    </div>
 
     <footer style="background-color: #000;">
         <div class="menu">
@@ -109,7 +85,25 @@
         </div>
 
     </footer>
-
+ <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+  apiKey: "AIzaSyC8SVzMtjk6KcvI_znvJh4_QQdG7WnvsvY",
+  authDomain: "alishah-54cee.firebaseapp.com",
+  databaseURL: "https://alishah-54cee-default-rtdb.firebaseio.com",
+  projectId: "alishah-54cee",
+  storageBucket: "alishah-54cee.appspot.com",
+  messagingSenderId: "910950780360",
+  appId: "1:910950780360:web:24ccb976d094a6237d84fd"
+};
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        db.settings({
+          timestampsInSnapshots: true
+        });
+      </script>
+    <script src="home.js"></script>
 </body>
 
 </html>
