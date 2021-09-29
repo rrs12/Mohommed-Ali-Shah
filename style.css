@@ -5,6 +5,9 @@
     /* Firefox */
 }
 
+body{
+    background-color: black !important;
+}
 
 #banner {
     margin-top: -55px;
@@ -79,7 +82,7 @@ span#banner--text::before {
 }
 
 div#about {
-background-color: #d7ebf1;
+    background-color: #d7ebf1;
     text-align: center;
     color: white;
     padding-bottom: 20px;
@@ -159,18 +162,19 @@ background-color: #d7ebf1;
     text-align: center;
 }
 
-textarea{
+textarea {
     resize: vertical;
     max-height: 250px;
 }
 
-.article{
+.article {
     padding: 25px;
     border: 1px solid white;
     font-size: 2em;
     height: 270px;
 }
-.article a{
+
+.article a {
     font-size: 1em !important;
     color: #FF7411;
     background-color: white;
@@ -179,13 +183,15 @@ textarea{
     transition-duration: .5s;
     -webkit-transition-property: all !important;
     transition-property: all !important;
-    border: none; 
+    border: none;
     text-decoration: none;
 }
-.article a:hover{
+
+.article a:hover {
     font-size: 2.2em;
     text-decoration: underline;
 }
+
 @keyframes animate {
 
     16% {
