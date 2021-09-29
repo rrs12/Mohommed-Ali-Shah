@@ -87,17 +87,9 @@ div#about {
 
 }
 
-#about img {
-    padding-left: 0px !important;
-    margin-left: 0px !important;
-    margin: 20px 0px;
-}
 
 #about--text--home {
     text-align: justify;
-    vertical-align: center;
-    height: 100%;
-    margin-top: -20px;
 }
 
 #about a {
