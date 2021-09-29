@@ -43,7 +43,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #FF7F11;
+    color: #df973d;
     transition: ease 0.5s;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #FF7F11;
+    color: #df973d;
     transition: ease 0.5s;
 }
 
@@ -132,7 +132,7 @@ body {
         flex-direction: column;
         width: 100% !important;
         height: 100vh;
-        background-color: #fc9416;
+        background-color: #df973d;
     }
 
     .nav div.main_list ul li {
