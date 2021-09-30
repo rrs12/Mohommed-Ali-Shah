@@ -7,9 +7,9 @@ body{
 }
 
 #banner {
-    margin-top: -55px;
+    margin-top:60px;
     padding: 330px 0px;
-    background-position: left top;
+    background-position: right top;
     background-image: url("Banner.png");
     width: 100%;
     position: relative;
@@ -21,7 +21,7 @@ body{
 #banner-about {
     margin-top: -55px;
     padding: 330px 0px;
-    background-position:top;
+    background-position:top left;
     background-image: url("Banner.png");
     width: 100%;
     position: relative;
