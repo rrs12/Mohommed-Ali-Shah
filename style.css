@@ -7,8 +7,8 @@ body{
 }
 
 #banner {
-    margin-top:60px;
-    padding: 330px 0px;
+    margin-top:0px;
+    padding: 400px 0px;
     background-position: right top;
     background-image: url("Banner.png");
     width: 100%;
