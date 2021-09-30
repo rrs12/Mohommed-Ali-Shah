@@ -7,25 +7,25 @@ body{
 }
 
 #banner {
-    margin-top:0px;
-    padding: 400px 0px;
-    background-position: right top;
+    margin-top:60px;
+    padding: 450px 0px;
+    background-position: center;
     background-image: url("Banner.png");
     width: 100%;
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 
 #banner-about {
-    margin-top: -55px;
-    padding: 330px 0px;
-    background-position:top left;
+    margin-top:60px;
+
+    background-position: center;
     background-image: url("Banner.png");
     width: 100%;
     position: relative;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -52,8 +52,8 @@ body{
     width: fit-content;
     word-wrap: break-word !important;
     position: absolute;
-    right: 5px;
-    bottom: 5px;
+    left: 20px;
+    top: 30px;
     margin: 0px 10px;
     color: white;
 }
@@ -232,7 +232,12 @@ textarea {
         width: 80%;
         margin: 25px 10% !important;
     }
-
+    #banner{
+        padding: 200px 0px;
+    }
+    #banner-about{
+        padding: 200px 0px;    
+    }
 }
 
 #about-main {
