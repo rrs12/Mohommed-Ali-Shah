@@ -95,7 +95,7 @@ div#about {
 #about a {
     margin-top: 20px !important;
     font-size: 3em;
-    color: #FF7411;
+    color: #df973d;
     background-color: white;
     padding: 10px 15px;
     -webkit-transition-duration: .5s;
@@ -119,7 +119,7 @@ div#about {
 .btn {
     margin-top: 20px !important;
     font-size: 3em;
-    color: #FF7411;
+    color: #df973d;
     background-color: white;
     padding: 10px 15px;
     -webkit-transition-duration: .5s;
@@ -166,7 +166,7 @@ textarea {
 
 .article a {
     font-size: 1em !important;
-    color: #FF7411;
+    color: #df973d;
     background-color: white;
     padding: 10px 15px;
     -webkit-transition-duration: .5s;
@@ -178,7 +178,7 @@ textarea {
 }
 
 .article a:hover {
-    font-size: 2.2em;
+    font-size: 2.4em;
     text-decoration: underline;
 }
 
