@@ -10,7 +10,7 @@ body{
     margin-top: -55px;
     padding: 330px 0px;
     background-position: left top;
-    background-image: url("Banner.jpg");
+    background-image: url("Banner.png");
     width: 100%;
     position: relative;
     background-size: cover;
@@ -21,8 +21,8 @@ body{
 #banner-about {
     margin-top: -55px;
     padding: 330px 0px;
-    background-position: left top;
-    background-image: url("Banner.jpg");
+    background-position:top;
+    background-image: url("Banner.png");
     width: 100%;
     position: relative;
     background-size: cover;
