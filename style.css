@@ -20,7 +20,7 @@ body{
 
 #banner-about {
     margin-top:60px;
-
+    padding: 450px 0px;
     background-position: center;
     background-image: url("Banner.png");
     width: 100%;
@@ -238,6 +238,21 @@ textarea {
     #banner-about{
         padding: 200px 0px;    
     }
+}
+
+@media screen and (max-width:480px) {
+    #banner-about h1{
+        font-size: 2.5em;
+    }
+    
+}
+
+@media screen and (max-width:440px) {
+    #banner-about h1{
+        font-size: 2em;
+        left: 0px;
+    }
+    
 }
 
 #about-main {
