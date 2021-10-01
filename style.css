@@ -154,7 +154,8 @@ div#about {
 
 textarea {
     resize: vertical;
-    max-height: 250px;
+    max-height: 350px;
+    min-height: 50px;
 }
 
 .article {
