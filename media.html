@@ -26,7 +26,7 @@
 <body>
     <nav class="nav" style="background-color: #000;">
         <div class="container">
-            <div class="logo">
+         <div class="logo">
                 <a href="#">Mohommed Ali Shah</a>
             </div>
             <div id="mainListDiv" class="main_list">
@@ -156,7 +156,140 @@
         <h3><a href="https://mauryanews18.com/4291/actor-major-md-ali-shah-mumbai-maurya-news18-interview/">https://mauryanews18.com/4291/actor-major-md-ali-shah-mumbai-maurya-news18-interview/</a> </h3>        
     </div>
 
+    <div id="gallery">
+        <h1 style="font-size: 4em; color: white;text-align: center;">News Articles</h1>
+        <hr style="height: 2px; width: 60px; background-color: white; margin-top: -5px;">   
+     
+        <div class="container">
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/RYHqgNT/20200731-172408.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/1vXgXpD/20200823-015527.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/V3ptpGM/20200728-100642.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/4SbjqG9/20200802-200138.jpg" alt="...">
+                </a>
+            </div>
+        </div>
+      
+        <div class="container">
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/ncS8hHc/20200802-235312.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/p3hTW5T/20200824-123832.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/F4rNpgB/Screenshot-20200731-212411-Drive.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/85g43YP/20200802-200103.jpg xl" alt="...">
+                </a>
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/YPM4jJH/20200802-195738.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/ygtMt6X/20200802-200012.jpg" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+                    <img src="https://i.ibb.co/rtdg6By/20200802-200039.jpg" alt="...">
+                </a>
+            </div>
+         <div class="col-xs-12 col-md-3">
+                <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+<img src="https://i.ibb.co/QK3cqDL/Screenshot-20200801-114709-Twitter.jpg">  </a>
+            </div>
+        </div>
+        
+        <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+          </div>
+
+
+
+    <style>
+
+        #lightbox .modal-content {
+            display: inline-block;
+            text-align: center;   
+        }
+        
+        #lightbox .close {
+            opacity: 1;
+            color: rgb(255, 255, 255);
+            padding: 5px 8px;
+            border-radius: 30px;
+            position: absolute;
+            top: -15px;
+            right: -55px;
+            z-index:1032;
+            background-color: #000;
+            font-size: 5em;
+        }
+        </style>
+
+    <script>
+    $(document).ready(function() {
+var $lightbox = $('#lightbox');
+
+$('[data-target="#lightbox"]').on('click', function(event) {
+    var $img = $(this).find('img'), 
+        src = $img.attr('src'),
+        alt = $img.attr('alt'),
+        css = {
+            'maxWidth': $(window).width() - 100,
+            'maxHeight': $(window).height() - 100
+        };
+
+    $lightbox.find('.close').addClass('hidden');
+    $lightbox.find('img').attr('src', src);
+    $lightbox.find('img').attr('alt', alt);
+    $lightbox.find('img').css(css);
+});
+
+$lightbox.on('shown.bs.modal', function (e) {
+    var $img = $lightbox.find('img');
+        
+    $lightbox.find('.modal-dialog').css({'width': $img.width()});
+    $lightbox.find('.close').removeClass('hidden');
+});
+});
+        </script>
 
     <footer style="background-color: #000;">
         <div class="menu">
